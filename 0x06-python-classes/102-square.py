@@ -26,7 +26,6 @@ class Square:
         """Return the current area of the square."""
         return (self.__size * self.__size)
 
-
     def __eq__(self, other):
         """Define the == comparision to a Square."""
         return self.area() == other.area()
